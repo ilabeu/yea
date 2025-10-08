@@ -8,6 +8,7 @@ import meteordevelopment.meteorclient.settings.IntSetting;
 import meteordevelopment.meteorclient.settings.Setting;
 import meteordevelopment.meteorclient.settings.SettingGroup;
 import meteordevelopment.meteorclient.systems.modules.Module;
+import meteordevelopment.meteorclient.systems.modules.Category;
 import meteordevelopment.meteorclient.utils.Utils;
 import meteordevelopment.meteorclient.utils.render.color.Color;
 import meteordevelopment.meteorclient.utils.render.color.SettingColor;
@@ -51,8 +52,8 @@ public class BlockStateDetector extends Module {
         .build()
     );
 
-    // Categoria própria (já que o Addon original não existe mais)
-    public static final String CATEGORY = "Dungeon Hunt";
+    // ✅ Categoria própria
+    public static final Category CATEGORY = new Category("Dungeon Hunt");
 
     public BlockStateDetector() {
         super(CATEGORY, "block-state-detector", "Detects changes in block states from the default state.");
