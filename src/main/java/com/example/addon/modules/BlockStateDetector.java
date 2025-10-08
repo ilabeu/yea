@@ -48,7 +48,7 @@ public class BlockStateDetector extends Module
 
     public BlockStateDetector()
     {
-        super(BlockStateDetector, "block-state-detector", "Detects changes in block states from the default state.");
+        super(AddonTemplate.CATEGORY, "block-state-detector", "Detects changes in block states from the default state.");
     }
 
     private final HashMap<ChunkPos, Set<BlockPos>> blockHighlights = new HashMap<>();
