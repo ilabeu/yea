@@ -1,4 +1,4 @@
-package com.stash.hunt.modules;
+package com.dungeonhunt;
 
 import com.stash.hunt.Addon;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
