@@ -1,6 +1,6 @@
 package com.stash.hunt.modules;
 
-import com.stash.hunt.Addon;
+import com.example.addon.AddonTemplate;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.events.world.ChunkDataEvent;
 import meteordevelopment.meteorclient.renderer.ShapeMode;
