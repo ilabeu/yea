@@ -2,7 +2,7 @@ package com.example.addon;
 
 import com.example.addon.commands.CommandExample;
 import com.example.addon.hud.HudExample;
-import com.example.addon.modules.BlockStateDtector.java;
+import com.example.addon.modules.BlockStateDetector.java;
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.GithubRepo;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
