@@ -23,7 +23,7 @@ public class AddonTemplate extends MeteorAddon {
         LOG.info("Initializing Meteor Addon Template");
 
         // Modules
-        Modules.get().add(new BlockStateDetector());
+        Modules.get().add(new ElytraSwap());
 
         // Commands
         Commands.add(new CommandExample());
