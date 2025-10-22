@@ -1,5 +1,5 @@
 package com.stash.hunt.modules;
-import com.example.addon.ElytraSwap;
+import com.example.addon.AddonTemplate;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
@@ -94,7 +94,7 @@ public class ElytraSwap extends Module {
     private ItemStack storedElytra = ItemStack.EMPTY;
     public ElytraSwap() {
         super(
-            ElytraSwap.CATEGORY,
+            AddonTemplate.CATEGORY,
             "ElytraSwap",
             "Automatically swaps elytras when they reach low durability."
         );
